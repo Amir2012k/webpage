@@ -1,0 +1,72 @@
+body{
+    background-color: green;
+    color: black;
+}
+
+
+
+.conatiner{
+    background-color: red;
+    color: aqua;
+    font-size: 10px;
+
+}
+h1{
+    background-color: blue;
+    color: yellow;
+    font-size: 10px;
+
+}
+@media screen and(max-width:650px){
+    body{
+        background-color: green;
+        color: black;
+    }
+    
+    
+    
+    .conatiner{
+        background-color: red;
+        color: aqua;
+        font-size: 150px;
+    
+    }
+    h1{
+ 
+       background-color: blue;
+        color: yellow;
+        font-size: 100px;
+    
+        p{
+            background-color: brown;
+            color: blueviolet;
+            font-size: 110px;
+        }  
+}
+}  
+p{
+    background-color: brown;
+    color: blueviolet;
+    font-size: 10px;
+}  
+
+@media screen and(min-width:150px){
+    body{
+        background-color: green;
+        color: black;
+    }
+    
+    
+    
+    .conatiner{
+        background-color: red;
+        color: aqua;
+        font-size: 10px;
+    
+    }
+    h1{
+        background-color: blue;
+        color: yellow;
+        font-size: 10px;
+    
+}
